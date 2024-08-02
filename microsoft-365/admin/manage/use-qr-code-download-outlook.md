@@ -32,7 +32,7 @@ In Outlook on the web or Outlook desktop app, users now have a button labeled Ou
 > [!NOTE]
 > In some cases, your users must re-authenticate on their computer to generate the QR code.
 
-## Use Exchange PowerShell to turn of QR code sign in
+## Use Exchange PowerShell to turn off QR code sign in
 
 This feature is on by default but you can turn it off by setting the Set-OWAMailboxPolicy command, **AccountTransferEnabled** to false. Users that have already used this feature won’t be signed out.
 
